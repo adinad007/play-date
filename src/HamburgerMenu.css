@@ -1,0 +1,30 @@
+.hamburger {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+    z-index: 1;
+  }
+  
+  .menu .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
